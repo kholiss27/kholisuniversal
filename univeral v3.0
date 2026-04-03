@@ -312,25 +312,6 @@ end)
     ╚══════════════════════════════════════════════════╝
 ]]
 
--- Main Window
-local Window = Rayfield:CreateWindow({
-    Name = "🔥Kholis v3.0🔥",
-    Icon = "award",
-    LoadingTitle = "Kholis Hub 'The power you seek'😈",
-    LoadingSubtitle = "By: 🔥Kholis🔥",
-    ConfigurationSaving = { Enabled = false },
-    KeySystem = true,
-    KeySettings = {
-        Title = "🔑 Kholis Hub Key System",
-        Subtitle = "Enter Key to Continue",
-        Note = "Join Discord for key: https://discord.gg/6s2tusVZF",
-        FileName = "KholisHubKey",
-        SaveKey = false,
-        GrabKeyFromSite = false,
-        Key = {"KHOLIS"}
-    }
-})
-
 local Players = game:GetService("Players")
 local TS = game:GetService("TweenService")
 local RS = game:GetService("RunService")
